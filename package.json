@@ -11,14 +11,18 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@clickhouse/client": "^1.14.0",
     "amqplib": "^0.10.9",
+    "clickhouse": "latest",
     "dotenv": "^16.4.5",
     "express": "^5.1.0",
+    "flink": "latest",
     "geo-distance-js": "^0.0.2",
     "mongodb": "^6.19.0",
     "mysql2": "^3.15.3",
     "newrelic": "^13.6.4",
-    "redis": "^5.8.2"
+    "redis": "^5.8.2",
+    "set-interval-async": "^3.0.3"
   },
   "lint-staged": {
     "*.js": [

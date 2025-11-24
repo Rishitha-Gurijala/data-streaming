@@ -1,4 +1,4 @@
-const { pushToQueue, updateDB , getDataFromMongo} = require("./controllers.js");
+const { pushToQueue, updateDB, getDataFromMongo } = require("./controllers.js");
 
 function getRoutes() {
   // user

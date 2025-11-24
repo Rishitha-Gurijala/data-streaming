@@ -40,7 +40,7 @@ async function getDataFromMongo(req, res) {
   let userId = req.params.userId;
   let mongodb = await mongoConnect();
 
-  let data = await mongodb.collection("rides").find({userId}).toArray();;
+  let data = await mongodb.collection("rides").find({ userId }).toArray();
   return res.status(200).json({ data: data });
 }
 
