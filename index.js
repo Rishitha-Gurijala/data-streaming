@@ -19,4 +19,4 @@ console.log("Listening on port 3000");
 
 setTimeout(async () => {
   await processData();
-}, 2 * 1000); // 12 hours
+}, 10 * 60 * 1000); // 12 hours
